@@ -4,7 +4,8 @@
   "description": "a react login component",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test --recursive"
+    "test": "mocha test --recursive",
+    "css": "node_modules/.bin/csscomb -c .csscomb.json styles/style.css"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "browser-sync": "^2.7.1",
     "browserify": "^10.1.1",
     "chai": "^2.3.0",
+    "csscomb": "^3.0.4",
     "gulp": "^3.8.11",
     "gulp-bower-files": "^0.2.7",
     "gulp-inject": "^1.2.0",
