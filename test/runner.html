@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="../node_modules/mocha/mocha.css" type="text/css"  />
+</head>
+<body>
+
+  <div id="mocha"></div>
+
+  <!-- Vendor -->
+  <script src="../node_modules/mocha/mocha.js"></script>
+  <script src="../node_modules/chai/chai.js" ></script>
+  <script src="../node_modules/sinon/lib/sinon.js" ></script>
+  <script>
+    mocha.setup('bdd');
+    // Setup chai
+    var expect = chai.expect;
+
+  </script>
+
+  <!-- scripts:js -->
+
+
+  <script src="/scripts/app.js"></script>
+
+
+  <!-- endinject -->
+
+
+  <!-- test:js -->
+
+  <script src="/test/spec/app.js"></script>
+
+  <!-- endinject -->
+
+  <script src="runner.js"></script>
+  </body>
+</html>

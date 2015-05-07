@@ -1,0 +1,51 @@
+{
+  "name": "login",
+  "version": "0.0.0",
+  "description": "a react login component",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecasilla/react-login"
+  },
+  "keywords": [
+    "react",
+    "login"
+  ],
+  "author": "Ernie Casilla <ecasilla@icloud.com> (http://erniecasilla.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecasilla/react-login/issues"
+  },
+  "homepage": "https://github.com/ecasilla/react-login",
+  "devDependencies": {
+    "babelify": "^6.0.2",
+    "browser-sync": "^2.7.1",
+    "browserify": "^10.1.1",
+    "chai": "^2.3.0",
+    "gulp": "^3.8.11",
+    "gulp-bower-files": "^0.2.7",
+    "gulp-inject": "^1.2.0",
+    "gulp-jshint": "^1.10.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rimraf": "^0.1.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-uncss-task": "^0.3.0",
+    "gulp-util": "^3.0.4",
+    "jshint-stylish": "^1.0.2",
+    "mocha": "^2.2.4",
+    "pretty-hrtime": "^1.0.0",
+    "reactify": "^1.1.0",
+    "require-dir": "^0.3.0",
+    "sinon": "^1.14.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.1"
+  },
+  "dependencies": {
+    "react": "^0.13.0-rc2"
+  }
+}
