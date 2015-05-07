@@ -1,0 +1,75 @@
+
+/* Button colors */
+
+/* Label */
+
+.label {
+  border-radius: 2px;
+  font-weight: normal;
+  padding: 3px 7px;
+  font-size: 12px;
+  line-height: 18px;
+  &.label-xs {
+    font-size: 10px;
+    padding: 1px 5px;
+    line-height: 12px;
+  }
+  &.label-sm {
+    font-size: 11px;
+    padding: 2px 6px;
+    line-height: 15px;
+  }
+  &.label-lg {
+    font-size: 13px;
+    padding: 5px 9px;
+    line-height: 23px;
+  }
+  &.label-white {
+    color: #666666 !important;
+    background: #f7f7f7;
+  }
+  &.label-grey {
+    color: #666666 !important;
+    background: #eeeeee;
+  }
+  &.label-black {
+    color: #ffffff;
+    background: #666666;
+  }
+  &.label-red {
+    color: #ffffff;
+    background: #ed5441;
+  }
+  &.label-green {
+    color: #ffffff;
+    background: #51d466;
+  }
+  &.label-lblue {
+    color: #ffffff;
+    background: #32c8de;
+  }
+  &.label-blue {
+    color: #ffffff;
+    background: #609cec;
+  }
+  &.label-orange {
+    color: #ffffff;
+    background: #f8a841;
+  }
+  &.label-yellow {
+    background: #fcd419;
+    color: #ffffff;
+  }
+  &.label-purple {
+    background: #cb79e6;
+    color: #ffffff;
+  }
+  &.label-rose {
+    background: #ff61e7;
+    color: #ffffff;
+  }
+  &.label-brown {
+    background: #d08166;
+    color: #ffffff;
+  }
+}

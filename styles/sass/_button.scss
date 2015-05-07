@@ -1,0 +1,117 @@
+/* Button classes */
+
+.btn {
+  border-radius: 2px;
+  position: relative;
+  &.btn-no-border {
+    border: 0px !important;
+  }
+  &.btn-white {
+    background: #ffffff;
+    color: #666666;
+    border: 1px solid #dddddd;
+    &:hover, &:focus, &.active, &:active {
+      background: #f7f7f7;
+      color: #666666;
+    }
+  }
+  &.btn-grey {
+    background: #eeeeee;
+    color: #666666;
+    border: 1px solid #d5d5d5;
+    &:hover, &:focus, &.active, &:active {
+      background: #d5d5d5;
+      color: #999;
+    }
+  }
+  &.btn-black {
+    color: #ffffff;
+    background: #666666;
+    border: 1px solid #4d4d4d;
+    &:hover, &:focus, &.active, &:active {
+      background: #4d4d4d;
+      color: #ffffff;
+    }
+  }
+  &.btn-red {
+    color: #ffffff;
+    background: #ed5441;
+    border: 1px solid #e52d16;
+    &:hover, &:focus, &.active, &:active {
+      color: #ffffff;
+      background: #e52d16;
+    }
+  }
+  &.btn-green {
+    color: #ffffff;
+    background: #51d466;
+    border: 1px solid #30c247;
+    &:hover, &:focus, &.active, &:active {
+      background: #30c247;
+      color: #ffffff;
+    }
+  }
+  &.btn-lblue {
+    color: #ffffff;
+    background: #32c8de;
+    border: 1px solid #1faabe;
+    &:hover, &:focus, &.active, &:active {
+      background: #1faabe;
+      color: #ffffff;
+    }
+  }
+  &.btn-blue {
+    color: #ffffff;
+    background: #609cec;
+    border: 1px solid #3280e7;
+    &:hover, &:focus, &.active, &:active {
+      background: #3280e7;
+      color: #ffffff;
+    }
+  }
+  &.btn-orange {
+    color: #ffffff;
+    background: #f8a841;
+    border: 1px solid #f69110;
+    &:hover, &:focus, &.active, &:active {
+      background: #f69110;
+      color: #ffffff;
+    }
+  }
+  &.btn-yellow {
+    background: #fcd419;
+    color: #ffffff;
+    border: 1px solid #dfb803;
+    &:hover, &:focus, &.active, &:active {
+      background: #dfb803;
+      color: #ffffff;
+    }
+  }
+  &.btn-purple {
+    background: #cb79e6;
+    color: #ffffff;
+    border: 1px solid #ba4ede;
+    &:hover, &:focus, &.active, &:active {
+      background: #ba4ede;
+      color: #ffffff;
+    }
+  }
+  &.btn-rose {
+    background: #ff61e7;
+    color: #ffffff;
+    border: 1px solid #ff2edf;
+    &:hover, &:focus, &.active, &:active {
+      background: #ff2edf;
+      color: #ffffff;
+    }
+  }
+  &.btn-brown {
+    background: #d08166;
+    color: #ffffff;
+    border: 1px solid #c4613f;
+    &:hover, &:focus, &.active, &:active {
+      background: #c4613f;
+      color: #ffffff;
+    }
+  }
+}
